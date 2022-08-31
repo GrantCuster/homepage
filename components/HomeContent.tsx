@@ -59,8 +59,8 @@ function HomeContent() {
           <Image
             src="/constraint-systems.jpg"
             className="w-fullr"
-            width={820}
-            height={640}
+            width={808}
+            height={370}
             alt=""
           />
         </div>
@@ -162,8 +162,8 @@ function HomeContent() {
             <Image
               src="/sprout.webp"
               className="w-full"
-              width={820}
-              height={640}
+              width={808}
+              height={412}
               alt=""
             />
           </div>
@@ -190,8 +190,8 @@ function HomeContent() {
             <Image
               src="/soot.webp"
               className="w-full"
-              width={820}
-              height={640}
+              width={808}
+              height={412}
               alt=""
             />
           </div>
@@ -222,7 +222,7 @@ function HomeContent() {
               alt=""
             />
           </div>
-          <div className="col-span-2">
+          <div className="col-span-3">
             <Link href="https://collection.dropeverything.net/">
               <a className="underline break-words" target="_blank">
                 Drop Everything Collection
@@ -243,8 +243,8 @@ function HomeContent() {
             <Image
               src="/fastforwardlabs.webp"
               className="w-full"
-              width={820}
-              height={640}
+              width={808}
+              height={412}
               alt=""
             />
           </div>
@@ -265,7 +265,7 @@ function HomeContent() {
         <div className="grid w-full grid-cols-4 gap-y-4 gap-x-8">
           <div className="col-span-4 md:col-span-1">Featured</div>
 
-          <div className="relative block">
+          <div className="relative block col-span-1">
             <Image
               className="absolute object-contain object-top w-full h-full"
               src="/active-learner.png"
@@ -274,7 +274,7 @@ function HomeContent() {
               alt=""
             />
           </div>
-          <div className="col-span-2">
+          <div className="col-span-3 md:col-span-2">
             <Link href="https://activelearner.fastforwardlabs.com">
               <a className="underline" target="_blank">
                 Active Learner
@@ -296,7 +296,7 @@ function HomeContent() {
             />
           </div>
 
-          <div className="col-span-2">
+          <div className="col-span-3 md:col-span-2">
             <Link href="https://turbofan.fastforwardlabs.com">
               <a className="underline" target="_blank">
                 Turbofan Tycoon
@@ -317,7 +317,7 @@ function HomeContent() {
               alt=""
             />
           </div>
-          <div className="col-span-2">
+          <div className="col-span-3 md:col-span-2">
             <Link href="https://textflix.fastforwardlabs.com">
               <a className="underline" target="_blank">
                 Textflix

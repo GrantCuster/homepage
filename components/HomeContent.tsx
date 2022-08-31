@@ -222,7 +222,7 @@ function HomeContent() {
               alt=""
             />
           </div>
-          <div className="col-span-3">
+          <div className="col-span-3 md:col-span-2">
             <Link href="https://collection.dropeverything.net/">
               <a className="underline break-words" target="_blank">
                 Drop Everything Collection

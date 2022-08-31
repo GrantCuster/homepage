@@ -215,7 +215,7 @@ function HomeContent() {
           {/* Flow */}
           <div className="relative block">
             <Image
-              className="absolute object-contain object-top w-full h-full"
+              className="absolute object-contain object-center w-full h-full"
               src="/soot-demo.png"
               width={128}
               height={128}
@@ -267,7 +267,7 @@ function HomeContent() {
 
           <div className="relative block col-span-1">
             <Image
-              className="absolute object-contain object-top w-full h-full"
+              className="absolute object-contain object-center w-full h-full"
               src="/active-learner.png"
               width={256}
               height={256}
@@ -288,7 +288,7 @@ function HomeContent() {
 
           <div className="relative block md:col-start-2">
             <Image
-              className="absolute object-contain object-top w-full h-full"
+              className="absolute object-contain object-center w-full h-full"
               src="/turbofan.png"
               width={256}
               height={256}
@@ -310,7 +310,7 @@ function HomeContent() {
 
           <div className="relative block md:col-start-2">
             <Image
-              className="absolute object-contain object-top w-full h-full"
+              className="absolute object-contain object-center w-full h-full"
               src="/textflix.png"
               width={128}
               height={128}

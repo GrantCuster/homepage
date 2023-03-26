@@ -268,7 +268,7 @@ function HomeContent() {
           <div className="relative block col-span-1">
             <Image
               className="absolute object-contain object-center w-full h-full"
-              src="/active-learner.png"
+                  src="/active-learner.png"
               width={256}
               height={256}
               alt=""
@@ -345,7 +345,7 @@ function HomeContent() {
           <div className="col-span-4 font-mono text-sm leading-6 md:col-span-2">
             Designer and engineer
             <br />
-            2012-20!4
+            2012-2014
           </div>
         </div>
 
@@ -403,8 +403,8 @@ function HomeContent() {
         <div className="grid w-full grid-cols-4 mt-12 gap-y-4 gap-x-8">
           <div className="col-span-2 md:col-span-1">Grant Custer</div>
           <div className="col-span-2 md:col-span-1">Homepage</div>
-          <div className="col-span-2 md:col-span-1">2022</div>
-          <div className="col-span-2 md:col-span-1">Thanks for stopping by</div>
+          <div className="col-span-2 md:col-span-1">2023</div>
+          <div className="col-span-2 md:col-span-1">World Wide Web</div>
         </div>
       </div>
     </div>

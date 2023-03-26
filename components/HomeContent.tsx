@@ -66,7 +66,7 @@ function HomeContent() {
         </div>
         <div className="grid w-full grid-cols-4 gap-y-4 gap-x-8">
           <div className="col-span-4 md:col-span-2">
-            Experimental web-basesd creative tools. Featuring image distorters,
+            Experimental web-based creative tools. Featuring image distorters,
             freeform text editors, and weird website builders. Targeted
             experiments in alternative interfaces.
           </div>

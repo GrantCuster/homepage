@@ -39,8 +39,7 @@ function HomeContent() {
           <div className="col-span-4 md:col-span-2 md:col-start-1">
             I&apos;ve built interfaces focused on spatial thinking, machine
             learning models, and data visualization. I like to work on small,
-            collaborative teams. If you&apos;re interested in working together
-            email grantcuster at gmail dot com.
+            collaborative teams.
           </div>
           <div className="col-span-4 font-mono text-sm leading-6 md:col-span-2"></div>
         </div>
@@ -48,6 +47,30 @@ function HomeContent() {
         <div className="w-full mt-8 text-sm font-bold leading-6 uppercase">
           Work
         </div>
+
+        <div className="h-px bg-black w-full"></div>
+
+        <div className="w-full font-bold leading-6">
+          <Link href="https://labs.google">
+            <a className="font-bold underline" target="_blank">
+              Google Creative Lab
+            </a>
+          </Link>
+        </div>
+        <div className="grid w-full grid-cols-4 gap-y-4 gap-x-8 ">
+          <div className="col-span-4 md:col-span-2">
+            Prototyping interfaces for interacting with large language models. Going beyond chat. Focused on increasing our understanding and control.
+          </div>
+          <div className="col-span-4 font-mono text-sm leading-6 md:col-span-2">
+            Creative technologist
+            <br />
+            2023-Present
+          </div>
+        </div>
+
+        <div className="h-px bg-black w-full"></div>
+
+
         <div className="w-full font-bold leading-6">
           <Link href="https://constraint.systems">
             <a className="font-bold underline" target="_blank">
@@ -150,7 +173,30 @@ function HomeContent() {
             </div>
           </div>
         </div>
-        <div className="w-full mt-4">
+
+        <div className="h-px bg-black w-full"></div>
+
+        <div className="w-full font-bold leading-6">
+          <Link href="https://daylight.computer">
+            <a className="font-bold underline" target="_blank">
+              Daylight
+            </a>
+          </Link>
+        </div>
+        <div className="grid w-full grid-cols-4 gap-y-4 gap-x-8 mb-2">
+          <div className="col-span-4 md:col-span-2">
+            Prototyping a new flutter-based tablet operating system focused on deep work. Trying to rethink things from the ground up.
+          </div>
+          <div className="col-span-4 font-mono text-sm leading-6 md:col-span-2">
+            Software engineer
+            <br />
+            2022-2023
+          </div>
+        </div>
+
+        <div className="h-px bg-black w-full"></div>
+
+        <div className="w-full">
           <Link href="https://sprout.place">
             <a className="text-lg font-bold underline" target="_blank">
               Sprout
@@ -178,7 +224,10 @@ function HomeContent() {
             2022
           </div>
         </div>
-        <div className="grid w-full grid-cols-4 mt-4 gap-y-4 gap-x-8">
+
+        <div className="h-px bg-black w-full"></div>
+
+        <div className="grid w-full grid-cols-4 gap-y-4 gap-x-8">
           <div className="col-span-4">
             <Link href="https://soot.com">
               <a className="text-lg font-bold underline" target="_blank">
@@ -231,7 +280,10 @@ function HomeContent() {
             <div>A special demo we built for the London Design Biennale.</div>
           </div>
         </div>
-        <div className="w-full mt-4">
+
+        <div className="h-px bg-black w-full"></div>
+
+        <div className="w-full">
           <Link href="https://blog.fastforwardlabs.com">
             <a className="text-lg font-bold underline" target="_blank">
               Fast Forward Labs
@@ -268,7 +320,7 @@ function HomeContent() {
           <div className="relative block col-span-1">
             <Image
               className="absolute object-contain object-center w-full h-full"
-                  src="/active-learner.png"
+              src="/active-learner.png"
               width={256}
               height={256}
               alt=""
@@ -330,7 +382,9 @@ function HomeContent() {
           </div>
         </div>
 
-        <div className="w-full mt-4">
+        <div className="h-px bg-black w-full"></div>
+
+        <div className="w-full">
           <Link href="https://betaworks.com">
             <a className="text-lg font-bold underline" target="_blank">
               Betaworks
@@ -348,6 +402,8 @@ function HomeContent() {
             2012-2014
           </div>
         </div>
+
+        <div className="h-px bg-black w-full"></div>
 
         <div className="w-full mt-8 text-sm font-bold leading-6 uppercase">
           More
@@ -376,21 +432,6 @@ function HomeContent() {
               </a>
             </Link>
           </div>
-          <div className="col-span-4">
-            <Link href="https://observablehq.com/@grantcuster">
-              <a className="underline" target="_blank">
-                Observable notebooks
-              </a>
-            </Link>
-          </div>
-          <div className="col-span-1">
-            <Link href="https://scrawl.grantcuster.com">
-              <a className="underline" target="_blank">
-                Scrawl
-              </a>
-            </Link>
-          </div>
-          <div className="col-span-3">Older writing, intentionally messy</div>
           <div className="col-span-1">
             <Link href="https://vis.social/@grantcuster">
               <a className="underline" target="_blank">
@@ -399,7 +440,14 @@ function HomeContent() {
             </Link>
           </div>
           <div className="col-span-3">@grantcuster.vis.social</div>
-        </div>
+          <div className="col-span-4">
+            <Link href="https://observablehq.com/@grantcuster">
+              <a className="underline" target="_blank">
+                Observable notebooks
+              </a>
+            </Link>
+          </div>
+       </div>
         <div className="grid w-full grid-cols-4 mt-12 gap-y-4 gap-x-8">
           <div className="col-span-2 md:col-span-1">Grant Custer</div>
           <div className="col-span-2 md:col-span-1">Homepage</div>

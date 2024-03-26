@@ -177,7 +177,7 @@ function HomeContent() {
         <div className="h-px bg-black w-full"></div>
 
         <div className="w-full font-bold leading-6">
-          <Link href="https://daylight.computer">
+          <Link href="https://daylightcomputer.com">
             <a className="font-bold underline" target="_blank">
               Daylight
             </a>

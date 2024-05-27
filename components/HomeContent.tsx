@@ -96,7 +96,7 @@ function HomeContent() {
           <div className="col-span-4 font-mono text-sm leading-6 md:col-span-2">
             Creator, designer and engineer
             <br />
-            2019-Present
+            Side project: 2019-Present
           </div>
         </div>
 
@@ -190,7 +190,7 @@ function HomeContent() {
           <div className="col-span-4 font-mono text-sm leading-6 md:col-span-2">
             Software engineer
             <br />
-            2022-2023
+            2023
           </div>
         </div>
 

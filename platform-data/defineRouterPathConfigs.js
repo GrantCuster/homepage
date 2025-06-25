@@ -1,0 +1,1 @@
+export default [{"pathSpec":[],"pathname":"/","pattern":"^/$","specs":{"rootElementIsStatic":true,"routeElementIsStatic":true,"staticElementIds":["layout:/","page:/"],"isStatic":true}}];

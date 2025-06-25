@@ -1,0 +1,1 @@
+import{r as e}from"./client-gX9D-yfm.js";import{c as t}from"./client-285T95rR.js";import{Router as r}from"./rsc2-88bccf4ec.js";const o=e.createElement(e.StrictMode,null,e.createElement(r));globalThis.__WAKU_HYDRATE__?t.hydrateRoot(document,o):t.createRoot(document).render(o);

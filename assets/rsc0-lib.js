@@ -1,4 +1,1 @@
-const unstable_allowServer = (x) => x;
-export {
-  unstable_allowServer
-};
+const l=e=>e;export{l as unstable_allowServer};

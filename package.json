@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "waku dev",
     "build": "waku build",
-    "start": "waku start --port 8082"
+    "start": "waku start --port 8082",
+    "deploy": "npm run build && gh-pages -d dist/public"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-server-dom-webpack": "19.0.0",

@@ -1151,7 +1151,7 @@ function unstable_fsRouter(importMetaUrl, loadPage, options) {
   });
 }
 const entries = unstable_fsRouter(
-  "file:///home/grant/dev/grantcuster-com/src/entries.js",
+  "file:///home/grant/dev/homepage/src/entries.js",
   (file) => /* @__PURE__ */ Object.assign({ "/src/pages/_layout.tsx": () => import("./pages/_layout.js"), "/src/pages/index.tsx": () => import("./pages/index.js") })[`/src/pages/${file}`]?.(),
   { pagesDir: "pages", apiDir: "api" }
 );
@@ -1184,7 +1184,7 @@ function loadModule(id) {
 globalThis.__WAKU_SERVER_IMPORT__ = loadModule;
 globalThis.__WAKU_CLIENT_IMPORT__ = (id) => loadModule("ssr/" + id);
 const dynamicHtmlPaths = [];
-const publicIndexHtml = "\n<!doctype html>\n<html>\n  <head>\n    <script type=\"module\" async>\nglobalThis.__WAKU_CLIENT_IMPORT__ = (id) => import(id);\n</script>\n\n    <script async type=\"module\" crossorigin src=\"/assets/indexHtml-yqTQt-QG.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/client-gX9D-yfm.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/client-285T95rR.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/rsc2-88bccf4ec.js\">\n    <link rel=\"stylesheet\" href=\"/assets/_layout-CLPifLU2.css\">\n  </head>\n  <body>\n  </body>\n</html>\n";
+const publicIndexHtml = "\n<!doctype html>\n<html>\n  <head>\n    <script type=\"module\" async>\nglobalThis.__WAKU_CLIENT_IMPORT__ = (id) => import(id);\n</script>\n\n    <script async type=\"module\" crossorigin src=\"/assets/indexHtml-yqTQt-QG.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/client-gX9D-yfm.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/client-285T95rR.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/rsc2-88bccf4ec.js\">\n    <link rel=\"stylesheet\" href=\"/assets/_layout-DIlKgNEX.css\">\n  </head>\n  <body>\n  </body>\n</html>\n";
 const loadPlatformData = 
 (key) => {
   switch (key) {

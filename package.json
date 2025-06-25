@@ -7,7 +7,7 @@
     "dev": "waku dev",
     "build": "waku build",
     "start": "waku start --port 8082",
-    "deploy": "npm run build && gh-pages -d dist/public"
+    "deploy": "npm run build && touch dist/public/.nojekyll && touch dist/public/CNAME && echo 'grantcuster.com' > dist/public/CNAME && gh-pages --dotfiles -d dist/public"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",

@@ -111,7 +111,7 @@ export default function Page(props: any) {
                 Targeted experiments in alternative interfaces.
               </div>
               <div className="col-span-4  md:col-span-2">
-                <div className="purple">Creator, designer and engineer</div>
+                <div className="purple">Creator, designer &amp; engineer</div>
                 <div className="blue">Side project: 2019-Present</div>
               </div>
             </div>
@@ -281,7 +281,7 @@ export default function Page(props: any) {
                 print reports.
               </div>
               <div className="col-span-4  md:col-span-2">
-                <div className="purple">Designer and engineer</div>
+                <div className="purple">Designer &amp; engineer</div>
                 <div className="blue">2014-2021</div>
               </div>
             </div>
@@ -366,7 +366,7 @@ export default function Page(props: any) {
                 Instapaper, Poncho, and Findings.
               </div>
               <div className="col-span-4  md:col-span-2">
-                <div className="purple">Designer and engineer</div>
+                <div className="purple">Designer &amp; engineer</div>
                 <div className="blue">2012-2014</div>
               </div>
             </div>
@@ -433,7 +433,7 @@ export default function Page(props: any) {
           </div>
         </div>
 
-        <div className="grid w-full grid-cols-4 gap-y-4 gap-x-8 mt-8 px-4 mb-4">
+        <div className="grid w-full items-end grid-cols-4 gap-y-4 gap-x-8 mt-8 px-4 mb-4">
           <div className="col-span-2 md:col-span-1 yellow">Grant Custer</div>
           <div className="col-span-2  md:col-span-1 purple">
             Designer &amp; Engineer

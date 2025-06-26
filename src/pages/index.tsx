@@ -79,6 +79,9 @@ export default function Page(props: any) {
                 Google Creative Lab
               </a>
             </div>
+            <div className="py-2">
+              <img src="/images/creative-lab.png" />
+            </div>
             <div className="grid w-full grid-cols-4 gap-y-4 gap-x-8">
               <div className="col-span-4 md:col-span-2">
                 Prototyping interfaces for interacting with large language
